@@ -13,7 +13,6 @@ body {
 
 header {
   position: fixed;
-  top: 0;
   width: 100%;
   background-color: #1f1f1f;
   padding: 1rem 2rem;
@@ -42,6 +41,36 @@ nav a {
 
 nav a:hover {
   color: #00bcd4;
+}
+#menu-toggle {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #1f1f1f;
+    width: 100%;
+    text-align: center;
+  }
+
+  #menu-toggle:checked + .hamburger + nav ul {
+    display: flex;
+  }
 }
 
 section {

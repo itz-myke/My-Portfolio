@@ -17,12 +17,8 @@ Welcome to my personal portfolio website! This project showcases my background, 
 ---
 
 ## 📷 Preview
+ - view code in https://itz-myke.github.io/My-Portfolio/
 
-![Portfolio Screenshot](path-to-screenshot.png)
-
-> _Tip: Add your actual screenshot here or host it and insert the link._
-
----
 
 ## 🛠️ Tech Stack
 
@@ -32,13 +28,8 @@ Welcome to my personal portfolio website! This project showcases my background, 
 
 ---
 
-## 📁 Project Structure
-
-
----
-
 ## 🔧 Setup Instructions
 
-1. Clone the repo:
+   Clone the repo:
    ```bash
    git clone https://github.com/itz-myke/My-Portfolio.git
